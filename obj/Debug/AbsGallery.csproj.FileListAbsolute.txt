@@ -13,3 +13,18 @@ c:\users\иван\documents\visual studio 2013\Projects\AbsGallery\AbsGallery\ob
 c:\users\иван\documents\visual studio 2013\Projects\AbsGallery\AbsGallery\obj\Debug\AbsGallery.pdb
 C:\Users\Иван\documents\visual studio 2013\Projects\AbsGallery\AbsGallery\obj\Debug\ShowImage.baml
 C:\Users\Иван\documents\visual studio 2013\Projects\AbsGallery\AbsGallery\obj\Debug\ShowImage.g.cs
+C:\Users\Иван\Desktop\AbsGallery\AbsGallery\bin\Debug\AbsGallery.exe.config
+C:\Users\Иван\Desktop\AbsGallery\AbsGallery\obj\Debug\AbsGallery.exe
+C:\Users\Иван\Desktop\AbsGallery\AbsGallery\obj\Debug\AbsGallery.pdb
+C:\Users\Иван\Desktop\AbsGallery\AbsGallery\bin\Debug\AbsGallery.exe
+C:\Users\Иван\Desktop\AbsGallery\AbsGallery\bin\Debug\AbsGallery.pdb
+C:\Users\Иван\Desktop\AbsGallery\AbsGallery\obj\Debug\AbsGallery.csprojResolveAssemblyReference.cache
+C:\Users\Иван\Desktop\AbsGallery\AbsGallery\obj\Debug\MainWindow.baml
+C:\Users\Иван\Desktop\AbsGallery\AbsGallery\obj\Debug\ShowImage.baml
+C:\Users\Иван\Desktop\AbsGallery\AbsGallery\obj\Debug\MainWindow.g.cs
+C:\Users\Иван\Desktop\AbsGallery\AbsGallery\obj\Debug\ShowImage.g.cs
+C:\Users\Иван\Desktop\AbsGallery\AbsGallery\obj\Debug\App.g.cs
+C:\Users\Иван\Desktop\AbsGallery\AbsGallery\obj\Debug\AbsGallery_MarkupCompile.cache
+C:\Users\Иван\Desktop\AbsGallery\AbsGallery\obj\Debug\AbsGallery.g.resources
+C:\Users\Иван\Desktop\AbsGallery\AbsGallery\obj\Debug\AbsGallery.Properties.Resources.resources
+C:\Users\Иван\Desktop\AbsGallery\AbsGallery\obj\Debug\AbsGallery.csproj.GenerateResource.Cache

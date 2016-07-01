@@ -1,16 +1,13 @@
 ﻿<Window x:Class="AbsGallery.ShowImage"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="ShowImage" Height="528" Width="743">
+        Title="Изображение" Height="528" Width="743">
     <Grid ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Auto">
         
-        <Button Content="Вперёд" Margin="380,452,280,0" VerticalAlignment="Top" Click="Button_Click_1"/>
-        <Button Content="Назад" HorizontalAlignment="Left" Margin="280,452,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button Content="Закрыть" HorizontalAlignment="Left" Margin="628,452,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
-        <ScrollViewer HorizontalAlignment="Left" Margin="32,32,0,70" Width="671" HorizontalScrollBarVisibility="Auto" Height="395" VerticalScrollBarVisibility="Auto">
-            <Image Source="c:\2.jpg"/>
-
-        </ScrollViewer>
+        <Button Content="Вперёд"  Width="75" VerticalAlignment="Bottom" Click="Button_Click_1" HorizontalAlignment="Center" Margin="100,0,0,15"/>
+        <Button Content="Назад" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="75" Margin="0,0,100,15"/>
+        <Button Content="Закрыть" HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="75" Click="Button_Click" Margin="595,0,30,15"/>
+        <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" Background="Black" Margin="30,30,28,50"/>
 
     </Grid>
 </Window>
