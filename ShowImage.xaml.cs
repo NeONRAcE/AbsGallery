@@ -19,7 +19,7 @@ namespace AbsGallery
     /// </summary>
     public partial class ShowImage : Window
     {
-        bool flag = true;
+        bool isStretched = true;
         public ShowImage()
         {
             InitializeComponent();
@@ -39,16 +39,16 @@ namespace AbsGallery
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-            if (flag == true)
+            if (isStretched)
             {
                 sc.HorizontalScrollBarVisibility = ScrollBarVisibility.Auto;
                 sc.VerticalScrollBarVisibility = ScrollBarVisibility.Auto;
-                flag = false;
+                isStretched = false;
             } else
             {
                 sc.HorizontalScrollBarVisibility = ScrollBarVisibility.Disabled;
                 sc.VerticalScrollBarVisibility = ScrollBarVisibility.Disabled;
-                flag = true;
+                isStretched = true;
             }
         }
     }
