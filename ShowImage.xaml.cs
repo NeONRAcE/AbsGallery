@@ -20,6 +20,7 @@ namespace AbsGallery
     public partial class ShowImage : Window
     {
         bool isStretched = true;
+        double angle = 90;
         public ShowImage()
         {
             InitializeComponent();
@@ -50,6 +51,14 @@ namespace AbsGallery
                 sc.VerticalScrollBarVisibility = ScrollBarVisibility.Disabled;
                 isStretched = true;
             }
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            RotateTransform rt = new RotateTransform();
+            rt.Angle = angle;
+            angle += 90;            
+            img.RenderTransform = rt;
         }
     }
 }
