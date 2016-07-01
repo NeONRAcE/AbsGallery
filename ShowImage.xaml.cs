@@ -19,9 +19,12 @@ namespace AbsGallery
     /// </summary>
     public partial class ShowImage : Window
     {
+        bool flag = true;
         public ShowImage()
         {
             InitializeComponent();
+            sc.HorizontalScrollBarVisibility = ScrollBarVisibility.Disabled;
+            sc.VerticalScrollBarVisibility = ScrollBarVisibility.Disabled;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -32,6 +35,21 @@ namespace AbsGallery
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
 
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            if (flag == true)
+            {
+                sc.HorizontalScrollBarVisibility = ScrollBarVisibility.Auto;
+                sc.VerticalScrollBarVisibility = ScrollBarVisibility.Auto;
+                flag = false;
+            } else
+            {
+                sc.HorizontalScrollBarVisibility = ScrollBarVisibility.Disabled;
+                sc.VerticalScrollBarVisibility = ScrollBarVisibility.Disabled;
+                flag = true;
+            }
         }
     }
 }
