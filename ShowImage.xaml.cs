@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.Drawing.Printing;
 
 namespace AbsGallery
 {
@@ -26,6 +27,7 @@ namespace AbsGallery
             InitializeComponent();
             sc.HorizontalScrollBarVisibility = ScrollBarVisibility.Disabled;
             sc.VerticalScrollBarVisibility = ScrollBarVisibility.Disabled;
+            
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -59,6 +61,20 @@ namespace AbsGallery
             rt.Angle = angle;
             angle += 90;            
             img.RenderTransform = rt;
+        }
+
+        private void print()
+        {
+            PrintDialog pd = new PrintDialog();
+            if(pd.ShowDialog()==true)
+            {
+                pd.PrintVisual(img, "Изображение печатается...");
+            }
+        }
+
+        private void Button_Click_4(object sender, RoutedEventArgs e)
+        {
+            print();
         }
     }
 }
